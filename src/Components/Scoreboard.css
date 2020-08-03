@@ -1,0 +1,34 @@
+.scoreboard {
+  position: absolute;
+  margin: 30px;
+  display: flex;
+  height: 40px;
+  width: fit-content;
+}
+
+.--container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  color: white;
+  font-weight: 700;
+}
+
+.score {
+  min-width: 100px;
+  font-weight: 800;
+  font-size: x-large;
+}
+
+.card__text {
+  padding: 0px 20px;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+}
+
+.card__text > span {
+  font-size: 24px;
+  font-weight: 800;
+  padding-left: 20px;
+}
