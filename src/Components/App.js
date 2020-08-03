@@ -9,7 +9,7 @@ const App = () => {
 
   const animationStates = {
     visibility: visibility,
-    mainDelay: 1,
+    mainDelay: 2,
   };
 
   return (
@@ -24,7 +24,7 @@ const App = () => {
       <motion.div
         initial={{ x: -300 }}
         animate={{ x: 100 }}
-        transition={{ type: "spring", stiffness: 120, duration: 2, delay: 0.9 }}
+        transition={{ type: "spring", stiffness: 120, duration: 2, delay: 1.8 }}
       >
         <button
           className="button"
